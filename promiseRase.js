@@ -1,4 +1,5 @@
 // https://learn.javascript.ru/promise#promise-race-iterable
+// Функция получает массив промисов и возвращает промис с первым выполненным результатом
 
 const a = new Promise((resolve) => setTimeout(() => resolve(1),3000));
 const b = new Promise((resolve) => setTimeout(() => resolve(2),2000));
