@@ -6,8 +6,12 @@ const a = {
 a.foo1(); // При запускае в браузере будет Window
 a.foo2();
 
+
+console.log('');
+console.log('----');
+console.log('');
+
 function roo() {
-    this.log = () => console.log(this);
     const a = {
         foo1: () => console.log(this),
         foo2: function(){ console.log(this) }
